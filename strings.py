@@ -21,3 +21,5 @@ print(string_slice[0:7:2])
 
 
 
+
+
