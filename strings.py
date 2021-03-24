@@ -15,8 +15,10 @@ print(len(name))
 print(name[-1])
 
 #String slicing
-string_slice = "Programing"
+string_slice = "Pakistan"
 print(string_slice[0:7:2])
+my_string = "Educative"
+print (my_string[::-1])
 
 
 

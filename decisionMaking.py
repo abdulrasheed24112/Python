@@ -34,3 +34,16 @@ elif time > 4 and time<=19:
     print("Good Evening")
 else:
     print("Good Night")
+
+
+price=200
+if price>=300:
+    print("The discount is :30%")
+elif price>=200 and price<300:
+    print("The discount is :20%")
+elif price>=100 and price<200:
+    print("The discount is :10%")
+else:
+    print("No discount")
+
+
