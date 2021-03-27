@@ -35,8 +35,14 @@ print(set_A.intersection(set_B))#returns the similar elements which are present 
 print(set_A - set_B)#returns the elements which are only present in set_A.
 print(set_B.difference(set_A))
 
-
-
-
-
+my_list = [34, 82.6, "Darth Vader", 17, "Hannibal"]
+f_index = my_list[0]
+s_index = my_list[4]
+length  = len(my_list)
+new_list = []
+new_list.insert(0,f_index)
+new_list.insert(1,s_index)
+new_list.insert(2,length)
+my_tuple =tuple(new_list)
+print(my_tuple)
 
